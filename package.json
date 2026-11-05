@@ -1,0 +1,14 @@
+{
+  "name": "manufacture-demo",
+  "version": "1.0.0",
+  "description": "Manufacturing & production planning system: products, BOMs, inventory, MRP, execution, costing, quality and analytics",
+  "type": "module",
+  "private": true,
+  "license": "Apache-2.0",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node src/server.js",
+    "seed": "SEED=1 node src/server.js",
+    "test": "node --test test/*.test.js"
+  }
+}
